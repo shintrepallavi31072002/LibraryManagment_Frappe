@@ -1,0 +1,36 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce584eebbf1cdf06 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce584eebbf1cdf06 | /usr/bin/gzip >> ./library.localhost/private/backups/20240813_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-13 12:00:05.082131
+Config  : /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240813_120003-library_localhost-site_config_backup.json 127.0B
+Database: /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240813_120003-library_localhost-database.sql.gz 201.5KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce584eebbf1cdf06 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce584eebbf1cdf06 | /usr/bin/gzip >> ./library.localhost/private/backups/20240814_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-14 12:00:03.607350
+Config  : /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240814_120002-library_localhost-site_config_backup.json 127.0B
+Database: /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240814_120002-library_localhost-database.sql.gz 233.8KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce584eebbf1cdf06 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce584eebbf1cdf06 | /usr/bin/gzip >> ./library.localhost/private/backups/20240816_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-16 12:00:03.505528
+Config  : /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240816_120002-library_localhost-site_config_backup.json 127.0B
+Database: /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240816_120002-library_localhost-database.sql.gz 253.0KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce584eebbf1cdf06 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce584eebbf1cdf06 | /usr/bin/gzip >> ./library.localhost/private/backups/20240817_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-17 12:00:04.783683
+Config  : /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240817_120002-library_localhost-site_config_backup.json 127.0B
+Database: /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240817_120002-library_localhost-database.sql.gz 256.7KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce584eebbf1cdf06 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce584eebbf1cdf06 | /usr/bin/gzip >> ./library.localhost/private/backups/20240819_180002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-19 18:00:03.216089
+Config  : /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240819_180002-library_localhost-site_config_backup.json 127.0B
+Database: /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240819_180002-library_localhost-database.sql.gz 262.2KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce584eebbf1cdf06 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce584eebbf1cdf06 | /usr/bin/gzip >> ./library.localhost/private/backups/20240820_120002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-20 12:00:03.821229
+Config  : /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240820_120002-library_localhost-site_config_backup.json 127.0B
+Database: /home/user1/frappe-bench2/sites/library.localhost/private/backups/20240820_120002-library_localhost-database.sql.gz 263.7KiB
+Backup for Site library.localhost has been successfully completed
